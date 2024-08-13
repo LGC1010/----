@@ -1,6 +1,6 @@
 function solution(n) {
     var answer = 0;
-    answer = Array.from(n.toString()).sort((a,b)=>b-a).join('');
+    answer = Number(Array.from(n.toString()).sort((a,b)=>b-a).join(''));
     return answer;
 }
 
